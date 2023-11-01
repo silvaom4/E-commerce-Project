@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.span-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: pink;
+    padding: 15px 0;
+    
+}
+
+.contact-header {
+    font-size: 20px;
+    
+}
+.contact-header a {
+    text-decoration: none;
+    color: pink;
+}
+
+.main-header {
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 30px;
+    font-size: 45px;
+    color: pink;
+    margin-left: 40px;
+}
+.main-header a {
+    text-decoration: none;
+    color: pink;
+    
+}
+
+
+.header-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.header-lists {
+   padding: 0 15px;
+   font-size: 20px;
+}
+
+.header-lists a {
+    text-decoration: none;
+    color: pink;
+    
+}
+
+.bar-container {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    background-color: pink;
+    
+}
+
+.bar-items {
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bar-lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:'Cormorant Garamond', serif;
+}
+
+
+
+/* ---- HEADER ENDS HERE ----- */
+
+body, html, main {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-container {
+    height: 100%;
+    width: 100%;
+}
+
+
+.hero-image {
+    box-sizing: border-box;
+    background-image: url(Images/gucci-hero-image1.webp);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+   
+}
+
+.hero-image h2 {
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 25px;
+}
+
+.hero-image p {
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    bottom: 10px;
+    left: 295px;
+}
+
+/* ----- END OF HERO  */
+
+.article-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid pink; */
+    margin-top: -300px;
+    margin-bottom: 200px;
+}
+.article-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+
+}
+
+.article-grid div:nth-child(1) {
+    background: url(Images/GUCCI-HERO-28.jpg) no-repeat bottom;
+    background-size: cover;
+    grid-row: 1 / 3;
+    grid-column: 1 / 1;
+
+}
+.article-grid div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.article-grid p:nth-child(3){
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    font-size: 17px;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+
+    
+}
+
+
+ 
+
+
+/* ---- FOOTER ---- */
+
+footer {
+    bottom: 0;
+    padding: 18px;
+    background-color: rgb(65, 0, 38);
+    width: 100%;
+    color: rgb(255, 156, 172);
+    text-align: center;
+    box-sizing: border-box;
+  
+}
+
+.footer-icons {
+    color: rgb(255, 156, 172);
+   
+}
+
+.footer-items {
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer-items li {
+    list-style: none;
+    padding: 15px;
+   
+}
+
+.footer-signature {
+    margin-right: 40px;
+}
+
+
+/* ***** MEDIA QUERIES START HERE ****** */
+
+@media screen and (max-width: 400px) {
+
+ /* ---- HEADER ----- */
+
+ .contact-header {
+    font-size: 13px;
+    
+}
+
+.main-header {
+   
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.header-lists {
+    padding: 0 5px;
+    font-size: 13px;
+ }
+ .bar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .bar-lists a {
+    font-size: 13px;
+}
+/* ------- BODY ------ */
+
+.hero-image {
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+   
+}
+
+
+.hero-image h2 {
+    font-size: 30px;
+    
+}
+
+.hero-image p {
+    font-size: 30px;
+    bottom: 25px;
+    left: 45px;
+}
+
+/* ----- END OF HERO ---- */
+
+
+.article-container {
+  
+    margin-top: -200px;
+    margin-bottom: 100px;
+}
+
+.article-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    color: black;
+
+}
+.article-grid div:nth-child(2) {
+    font-size: 40px;
+  
+}
+
+.article-grid p:nth-child(3){
+    font-size: 14px;
+    
+}
+
+
+
+
+
+/* -----FOOTER----- */
+
+
+.footer-items {
+    margin-right: 1px;
+    font-size: 15px;
+
+}
+.footer-items li {
+    list-style: none;
+    padding: 15px;
+   
+}
+.footer-signature {
+    margin-right: 1px;
+    font-size: 15px;
+    
+}
+
+
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    
+    /* ---- HEADER ----- */
+
+    .contact-header {
+        font-size: 15px;
+        
+    }
+
+    .main-header {
+       
+        font-size: 28px;
+        margin-left: 5px;
+    }
+
+    .header-lists {
+        padding: 0 5px;
+        font-size: 15px;
+     }
+     .bar-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+     .bar-lists a {
+        font-size: 13px;
+
+        
+    }
+
+
+
+
+
+    /* ---- body --- */
+
+    .hero-image {
+  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+       
+    }
+    .hero-image h2 {
+        font-size: 39px;
+    }
+
+    .hero-image p {
+        font-size: 50px;
+        bottom: 15px;
+        left: 75px;
+    }
+
+
+/* ------ END OF HERO ------ */
+    
+.article-container {
+  
+    margin-top: -300px;
+    margin-bottom: 100px;
+}
+
+.article-grid {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+
+
+
+/* ***** FOOTER ***** */
+
+.footer-items {
+    margin-right: 1px;
+    font-size: 18px;
+
+}
+.footer-items li {
+    list-style: none;
+    padding: 15px;
+   
+}
+.footer-signature {
+    margin-right: 1px;
+    font-size: 18px;
+    
+}
+
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* ---- HEADER ----- */
+   
+   
+   .main-header {
+      
+       font-size: 28px;
+       margin-left: 65px;
+   }
+   
+   
+    .bar-items {
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+   }
+   
+    .bar-lists a {
+       font-size: 16px;
+   
+       
+   }
+   
+   
+   
+   
+   
+   /* ---- body --- */
+       .hero-image {
+  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;  
+       
+    }
+   
+   
+   
+   /* ***** FOOTER ***** */
+   
+   .footer-items {
+   margin-right: 1px;
+   font-size: 18px;
+   
+   }
+   .footer-items li {
+   list-style: none;
+   padding: 15px;
+   
+   }
+   .footer-signature {
+   margin-right: 1px;
+   font-size: 18px;
+   
+   }
+   
+   
+   
+   }
+
