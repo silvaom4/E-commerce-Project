@@ -24,7 +24,6 @@
 
 .main-header {
     font-family:'Cormorant Garamond', serif;
-    font-weight: 30px;
     font-size: 45px;
     color: pink;
     margin-left: 40px;
@@ -54,9 +53,6 @@
 }
 
 .bar-container {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-evenly; */
     background-color: pink;
     
 }
@@ -136,7 +132,6 @@ body, html, main {
     margin: 0 auto;
     height: 500px;
     width: 100%;
-    /* border: 1px solid pink; */
     margin-top: -300px;
     margin-bottom: 200px;
 }
@@ -150,21 +145,21 @@ body, html, main {
 
 }
 
-.article-grid div:nth-child(1) {
+.article-grid span:nth-child(1) {
     background: url(Images/GUCCI-HERO-28.jpg) no-repeat bottom;
     background-size: cover;
     grid-row: 1 / 3;
     grid-column: 1 / 1;
 
 }
-.article-grid div:nth-child(2) {
+.article-grid span:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 60px;
     font-family: 'Cormorant Garamond', serif;
 }
-.article-grid p:nth-child(3){
+.article-grid span:nth-child(3){
     display: flex;
     align-items:flex-start;
     justify-content:center;

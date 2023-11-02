@@ -22,7 +22,6 @@
 
 .main-header {
     font-family:'Cormorant Garamond', serif;
-    font-weight: 30px;
     font-size: 45px;
     color: pink;
     margin-left: 40px;
@@ -84,7 +83,7 @@
 
 
 section {
-    /* border: lightcoral 1px dotted; */
+
     padding-top: 40px;
     padding-bottom: 80px;
     height: 1050px;
