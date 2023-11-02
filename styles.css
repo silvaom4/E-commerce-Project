@@ -112,7 +112,7 @@ body, html, main {
 }
 
 .hero-image h2 {
-    font-size: 50px;
+    font-size: 40px;
     color: aliceblue;
     font-family: 'Cormorant Garamond', serif;
     padding: 25px;
@@ -120,7 +120,7 @@ body, html, main {
 
 .hero-image p {
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Cormorant Garamond', serif;
     position: absolute;
     bottom: 10px;
