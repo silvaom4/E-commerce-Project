@@ -81,6 +81,14 @@
 
 /* ---- HEADER ENDS HERE ----- */
 
+h2 {
+    color: palevioletred;
+    text-align: center;
+    font-family:'Cormorant Garamond', serif;
+    padding: 50px 0 0 0;
+    font-size: 35px;
+    margin-right: 15px;
+}
 
 section {
 
@@ -321,6 +329,12 @@ footer {
 }
 
 @media screen and (max-width: 986px) {
+
+    h2 {
+        padding: 30px 0 0 0;
+        font-size: 25px;
+        
+    }
 
 
     section {
