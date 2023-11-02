@@ -166,6 +166,7 @@ body, html, main {
     font-size: 17px;
     font-family: 'Cormorant Garamond', serif;
     color: black;
+    text-align: center;
 
     
 }
@@ -307,13 +308,15 @@ footer {
     color: black;
 
 }
-.article-grid div:nth-child(2) {
+.article-grid span:nth-child(2) {
     font-size: 40px;
+    text-align: center;
   
 }
 
-.article-grid p:nth-child(3){
+.article-grid span:nth-child(3){
     font-size: 14px;
+    text-align: center;
     
 }
 
