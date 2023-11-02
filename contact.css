@@ -73,6 +73,15 @@
     font-family:'Cormorant Garamond', serif;
 }
 
+.contact-header a:hover,
+.main-header a:hover,
+.header-lists a:hover,
+.bar-lists a:hover {
+    color: rgb(234, 5, 43);
+   
+}
+
+
 /* ---- HEADER ENDS HERE ------ */
 
 
@@ -190,6 +199,11 @@ footer {
     color: rgb(255, 156, 172);
    
 }
+.footer-icons a{
+    text-decoration: none;
+    color: rgb(255, 156, 172);
+   
+}
 
 .footer-items {
     margin-right: 40px;
@@ -212,6 +226,10 @@ footer {
     font-family:'Cormorant Garamond', serif;
     font-size: 20px;
 }
+.footer-icons a:hover {
+    color: rgb(255, 0, 0);
+}
+
 
 
 /* ***** MEDIA QUERIES START HERE ****** */
